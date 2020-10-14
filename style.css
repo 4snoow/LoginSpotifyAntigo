@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;  
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ /* Div para a logo do spotify*/
+.logo {
+    background: white;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-top: -400px;
+    margin-right: -700px;
+    border: none;
+    border-bottom: 1px solid gray;
+    z-index: 1;
+}
+
+.logo img {
+    width: 250px;
+    height: 70px;
+    padding: 10px 100px;
+}
+
+/*Div para os botoes*/
+.botao {
+    background: white;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    display: block;
+    height: 140px;
+    width: 500px;
+    margin-top: -300px;
+    margin-right: -730px;
+    padding: 40px; 
+    text-align: center;    
+    border-bottom: 1px solid gray;
+    z-index: 0;
+    
+}
+/* Colocar o Ou no meio da borda*/
+.botao:after{
+    content: "ou";
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+    padding: 10px;
+    background: white;
+    color: black;
+    margin-top: 5px;
+    z-index: 2;
+    
+}
+
+.botao button {
+    display: flex;
+    margin-left: 20px;
+    height: 50px;
+    border-radius: 500px;  
+    border: none;
+    margin-left: 80px;
+    width: 350px;
+    
+}
+
+.botao #azul {
+    background-color: #0652DD;
+    align-items: center;
+    
+}
+.botao #preto {
+    background: black;
+    margin-top: 10px;
+    align-items: center;
+}
+
+p {
+    color: white;
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+/* Por icone do lado do botão, Facebook*/
+#face {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    padding: 15px;
+    padding-left: 120px;   
+    
+}
+
+/*Por icone do lado do botão, Apple*/
+ #apple {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    padding: 15px;
+    padding-left: 120px; 
+    margin-top: 7px;
+}
+
+
+
+
+.botao h3 {
+    padding-left: 25px;
+    font-size: 15px;    
+}
+
+/* Form para login e senha */
+form input {
+    display: block;
+    width: 500px;
+    border: 1px solid gray;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 5px;
+    
+}
+
+form button  {
+   background: #2ecc71;
+   width: 200px;
+   border-radius: 500px;
+   border: none;
+   cursor: pointer;
+   margin-top: 15px;
+}
+
+form #check{
+    margin: 0;
+    float: left;
+    margin-left: -200px;
+    margin-top: 20px;
+    background-color: #2ecc71;
+}
+
+
+form label {
+    float: left;
+    margin-left: -230px;
+    margin-top: 25px;
+    color: gray;
+    
+}
+
+/* Div do formulário */
+.form {
+    background: white;
+    height: 250px;
+    width: 600px;
+    
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin-right: -750px;
+    margin-top: -50px;
+    
+}
+
+h4{
+    font-weight: bold;
+    color: white;
+}
+
+a{
+    display: flex;
+    color: green; 
+    padding: 50px 215px; 
+    text-decoration: none;
+}
+
+
+/* Div da parte de baixo da pagina*/
+
+.footer button {
+    border-radius: 500px;
+    border: 1px solid gray;
+    background: white;
+    width: 350px;
+    height: 40px;
+    font-weight: bold;
+    color: gray;
+}
+
+.footer {
+    top: 78%;
+    bottom: 50%;
+    left: 34%;
+    text-align: center;
+    background: yellow;
+    width: 500px;
+    position: absolute;
+    margin-left: 500px;
+}
